@@ -64,11 +64,15 @@ python manage.py runserver
 /!\: Make sure your are current working directory has manage.py
 
 6. Go to http://127.0.0.1:8000/momo:
+  ``` bash terminal
+  http://127.0.0.1:8000/momo
+  ```
    Now you can use and navigate our beautiful\_\_ app.
 
-## For accessing our simple api
-Go to:
-- http://127.0.0.1:8000/momo/api/transaction-data/
+7. For accessing our simple api
+```
+[http://127.0.0.1:8000/momo](http://127.0.0.1:8000/momo/api/transaction-data/)
+```
 
 ## Project Structure
  Frontend CSS files are organized in a dedicated folder with separate files for:
