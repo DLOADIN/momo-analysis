@@ -1,8 +1,4 @@
 # MoMo Data Analysis Project
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 A full-stack application designed to process, analyze, and visualize SMS transaction data in XML format. The project provides an interactive dashboard for data analysis with a clean, responsive user interface.
 
 ## Features
@@ -18,10 +14,6 @@ A full-stack application designed to process, analyze, and visualize SMS transac
 ## Technology Stack
 
 - **Frontend**:
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
   - HTML
   - CSS
   - JavaScript
@@ -35,33 +27,23 @@ A full-stack application designed to process, analyze, and visualize SMS transac
 
 ### Prerequisites
 Ensure you have the following installed on your system:
-- Python 3
+- Python 3 or Python
 
 ## Installation & Setup
-
 1. Clone the repository:
-
 ```bash
-<<<<<<< Updated upstream
-git clone https://github.com/DLOADIN/momo-analysis.git
-cd MoMo-Data-Analysis
-=======
 git clone https://github.com/DLOADIN/momo-Analysis.git
 cd momo-Analysis
->>>>>>> Stashed changes
 ```
 
 2. Set up a Python virtual environment (recommended):
-
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 3. Install django(Required):
-
 ```bash
-<<<<<<< Updated upstream
 pip install django sqlalchemy
 ```
 
@@ -87,41 +69,21 @@ python manage.py runserver
 [http://127.0.0.1:8000/momo](http://127.0.0.1:8000/momo/api/transaction-data/)
 ```
 
-## Project Structure
- Frontend CSS files are organized in a dedicated folder with separate files for:
-=======
-pip install django sqlachemy
-```
-
-5. Start the development server:
--cd MOMO_DASHBOARD
-```bash terminal
-python manage.py runserver
-```
-
-/!\: Make sure your are current working directory has manage.py
-
-6. Go to http://127.0.0.1:8000/momo:
-   Now you can use and navigate our beautiful\_\_ app.
-
-## For accessing our simple api
+8. For accessing our simple api
 Go to:
+```
 - http://127.0.0.1:8000/momo/api/transaction-data/
+```
 
 ## Project Structure
 
 - Frontend CSS files are organized in a dedicated folder with separate files for:
-
->>>>>>> Stashed changes
   - Tables
   - Charts
   - Component-specific styles
 
-<<<<<<< Updated upstream
- Backend structured with Django's MVT architecture
-=======
+
 - Backend structured with Django's MVT architecture
->>>>>>> Stashed changes
   - Data processing modules
   - Database models
   - View logic
@@ -166,20 +128,12 @@ Go to:
 
 ## Documentation & References
 
-<<<<<<< Updated upstream
 - [Project Repository](https://github.com/DLOADIN/momo-analysis)
-=======
-- [Project Repository](https://github.com/DLOADIN/momo-Data-Analysis)
->>>>>>> Stashed changes
 - [Python XML Parsing Documentation](https://docs.python.org/3/library/xml.etree.elementtree.html)
 - [SQLite Documentation](https://www.sqlite.org/docs.html)
 - [Django Documentation](https://docs.djangoproject.com/)
 - [Chart.js Documentation](https://www.chartjs.org/)
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 ## Contributing
 
 1. Fork the repository
